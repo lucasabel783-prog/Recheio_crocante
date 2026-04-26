@@ -1,3 +1,3 @@
 # Recheio_crocante
-Este site foi feito para praticar os meus conhecimentos, de css, html e javascript
-Se gostarem e quiserem que eu também faça um site para sua loja ou marca entrar em contato pelo whatsapp, no número: +351 927848397
+<h3>Este site foi feito para praticar os meus conhecimentos em css, html e javascript</h3>
+<p>Se quiserem que eu crie um site de alguém ou seus, é só entrar em contato via whatsapp com o número: +351 927848397</p>
