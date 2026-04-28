@@ -1,93 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <title>Recheio Crocante</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recheio Crocante</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="images/icone.jpg" alt="Recheio Crocante" />
+      </div>
 
-<header class="header">
-  <div class="logo">
-    <img src="images/icone.jpg" alt="Recheio Crocante">
-  </div>
+      <nav id="nav">
+        <a href="#inicio">Início</a>
+        <a href="#galeria">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
 
-  <nav id="nav">
-    <a href="#inicio">Início</a>
-    <a href="#galeria">Produtos</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-</header>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="overlay"></div>
 
-<!-- HERO -->
-<section id="inicio" class="hero">
-  <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>O sabor que começa o seu dia</h1>
+        <p>Pequenos-almoços, brunch e doces artesanais</p>
+        <a href="#galeria" class="btn">Explorar</a>
+      </div>
+    </section>
 
-  <div class="hero-content">
-    <h1>O sabor que começa o seu dia</h1>
-    <p>Pequenos-almoços, brunch e doces artesanais</p>
-    <a href="#galeria" class="btn">Explorar</a>
-  </div>
-</section>
+    <!-- GALERIA -->
+    <section id="galeria" class="section">
+      <h2 class="title">Os nossos doces</h2>
 
-<!-- GALERIA -->
-<section id="galeria" class="section">
-  <h2 class="title">Os nossos doces</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="images/bolo1.jpg" />
+        </div>
 
-  <div class="gallery">
-  <div class="gallery-item">
-    <img src="images/bolo1.jpg">
-  </div>
+        <div class="gallery-item">
+          <img src="images/bolo2.jpg" />
+        </div>
 
-  <div class="gallery-item">
-    <img src="images/bolo2.jpg">
-  </div>
+        <div class="gallery-item">
+          <img src="images/bolo3.jpg" />
+        </div>
+      </div>
+    </section>
 
-  <div class="gallery-item">
-    <img src="images/bolo3.jpg">
-  </div>
-</div>
-</section>
+    <section class="section">
+      <h2 class="title">🔥 Mais pedidos</h2>
 
-<!-- SOBRE -->
-<section id="sobre" class="section alt">
-  <h2 class="title">Sobre nós</h2>
-  <p>
-    Cada detalhe na Recheio Crocante é pensado para criar momentos especiais —
-    do primeiro café da manhã ao último doce do dia.
-  </p>
-</section>
+      <div class="top-products">
+        <div class="product-card">
+          🥐 Pastel de nata<br /><span>Mais vendido</span>
+        </div>
+        <div class="product-card">
+          🍫 Bolo de chocolate<br /><span>Top 2</span>
+        </div>
+        <div class="product-card">🥖 Pão fresco<br /><span>Diário</span></div>
+      </div>
+    </section>
 
-<!-- HORÁRIO -->
-<section class="section">
-  <h2 class="title">Horário</h2>
-  <p>Segunda a Sábado: 07:00 – 19:00</p>
-  <p>Domingo: 07:00 – 13:00</p>
-</section>
+    <!-- SOBRE -->
+    <section id="sobre" class="section alt">
+      <h2 class="title">Sobre nós</h2>
+      <p>
+        Cada detalhe na Recheio Crocante é pensado para criar momentos especiais
+        — do primeiro café da manhã ao último doce do dia.
+      </p>
+    </section>
 
-<!-- CONTACTO -->
-<section id="contacto" class="section alt">
-  <h2 class="title">Visite-nos</h2>
-  <p>📍 R. Alm. Reis 99, Póvoa de Varzim</p>
-  <p>📞 252 110 450</p>
+    <!-- HORÁRIO -->
+    <section class="section">
+      <h2 class="title">Horário</h2>
+      <p>Segunda a Sábado: 07:00 – 19:00</p>
+      <p>Domingo: 07:00 – 13:00</p>
+      <div class="open-status">
+        <span id="status-dot"></span>
+        <span id="status-text">A verificar estado...</span>
+      </div>
+    </section>
 
-  <div class="socials">
-    <a href="https://instagram.com/recheio_crocante_" target="_blank">
-      <img src="icons/instagram.png" alt="Instagram">
-    </a>
-    <a href="https://facebook.com" target="_blank">
-      <img src="icons/facebook.png" alt="Facebook">
-    </a>
-  </div>
-</section>
+    <!-- CONTACTO -->
+    <section id="contacto" class="section alt">
+      <h2 class="title">Visite-nos</h2>
+      <p>📍 R. Alm. Reis 99, Póvoa de Varzim</p>
+      <p>📞 252 110 450</p>
 
-<footer>
-  <p>© 2026 Recheio Crocante</p>
-</footer>
+      <div class="socials">
+        <a href="https://instagram.com/recheio_crocante_" target="_blank">
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+      </div>
 
-<script src="script.js"></script>
-</body>
+      <!-- MAPA -->
+      <div class="map-container">
+        <div class="map-header">
+          <h3>📍 Onde estamos</h3>
+        </div>
+
+        <div class="map-box">
+          <iframe
+            src="https://www.google.com/maps?q=R.%20Alm.%20Reis%2099,%20Póvoa%20de%20Varzim&output=embed"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+        <div class="quick-actions">
+          <a
+            class="wa-btn"
+            href="https://wa.me/351000000000?text=Olá! Gostava de fazer um pedido na Recheio Crocante."
+            target="_blank"
+          >
+            💬 Pedir no WhatsApp
+          </a>
+
+          <a class="call-btn" href="tel:+351252110450"> 📞 Ligar agora </a>
+        </div>
+      </div>
+
+      <a
+        class="map-btn"
+        href="https://www.google.com/maps/dir/?api=1&destination=R.+Alm.+Reis+99+Póvoa+de+Varzim"
+        target="_blank"
+      >
+        🧭 Como chegar
+      </a>
+
+      <!-- REVIEWS -->
+      <div class="map-container">
+        <div class="map-header">
+          <h3>⭐ Avaliações</h3>
+
+          <div class="reviews-meta">
+            <span class="rating-badge">4.8 ★ (127 avaliações)</span>
+
+            <a
+              class="all-reviews-link"
+              href="https://www.google.com/search?client=opera-gx&hs=rYs&sa=X&sca_esv=964119e2db280522&biw=1321&bih=654&sxsrf=ANbL-n7GPOPdszSI1px-_b2yWig2mCk6kw:1777322904666&q=Recheio%20Crocante%20Críticas&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNLMwM7U0NjIzMTY3sbA0MjG2NNzAyPiKUSooNTkjNTNfwbkoPzkxryQVyDi8tiQzObF4ESseSQCYzPJpVQAAAA&rldimm=16865932643748924391&tbm=lcl&hl=pt-PT&ved=0CAcQ5foLahcKEwjI7enj846UAxUAAAAAHQAAAAAQCg#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2tZNFV6VnBZbHBwVTJwd1UzRkhaMGRGVjB4ck1FRRAB"
+              target="_blank"
+            >
+              Ver todas as críticas
+            </a>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <div id="review-box"></div>
+
+          <div class="review-controls">
+            <button id="prevBtn">◀</button>
+            <button id="nextBtn">▶</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Recheio Crocante</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
