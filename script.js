@@ -67,3 +67,17 @@ function checkOpenStatus() {
 
 checkOpenStatus();
 setInterval(checkOpenStatus, 60000);
+
+function showReview() {
+  if (!reviews.length) return;
+
+  const r = reviews[index];
+
+  document.getElementById('review-box').innerHTML = `
+    <div>
+      <h2>${'⭐'.repeat(r.rating)}</h2>
+      <p>"${r.texto}"</p>
+      <strong>— ${r.nome}</strong>
+    </div>
+  `;
+}
