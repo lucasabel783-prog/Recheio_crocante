@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Jaqueline cardoso",
+    "texto": "Ambiente agradável, atendimento rápido e cordial e estava tudo delicioso.",
+    "rating": 5
+  },
+  {
+    "nome": "Catarina Morelli",
+    "texto": "Já fomos várias vezes de tanto que gostamos! Ambiente limpo, aconchegante e acolhedor. Todas as funcionárias são simpáticas e a comida é uma delícia! Com certeza vamos voltar mais vezes.",
+    "rating": 5
+  },
+  {
+    "nome": "Maria Fátima Silva",
+    "texto": "Pastelaria com produtos deliciosos e de grande qualidade, tanto em termos de pequenos almoços e lanches, como também bolos de aniversário! Atendimento maravilhoso!",
+    "rating": 5
+  },
+  {
+    "nome": "Fábio Torres",
+    "texto": "Tudo muito bom e com ótimo aspecto, e funcionárias muito simpáticas e bom atendimento.",
+    "rating": 5
+  },
+  {
+    "nome": "Sophie Maxwell",
+    "texto": "Doces e bolos maravilhosos, funcionários muito acolhedores e instalações limpas e elegantes. Obrigada!",
+    "rating": 5
+  },
+  {
+    "nome": "Diogo Santos",
+    "texto": "Atendimento muito bom e espaço moderno e muito acolhedor!",
+    "rating": 5
+  },
+  {
+    "nome": "Dilval",
+    "texto": "Excelente atendimento. Produtos de qualidade e sabores realmente incríveis. Recomendo.",
+    "rating": 5
+  }
+]
